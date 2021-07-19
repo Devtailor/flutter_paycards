@@ -183,7 +183,7 @@ public class CardDetectionStateView extends View {
     @Override
     protected void onDraw(final Canvas canvas) {
         if (mCardGradientDrawable.getBounds().width() == 0) return;
-        drawBackground(canvas);
+        // drawBackground(canvas);
         drawCorners(canvas);
         drawRecognitionResult(canvas);
     }
@@ -202,7 +202,7 @@ public class CardDetectionStateView extends View {
 
     private void drawCorners(Canvas canvas) {
         final int detectionState = mDetectionState;
-        mCardGradientDrawable.draw(canvas);
+        // mCardGradientDrawable.draw(canvas);
         mCornerTopLeftDrawable.draw(canvas);
         mCornerTopRightDrawable.draw(canvas);
         mCornerBottomLeftDrawable.draw(canvas);
