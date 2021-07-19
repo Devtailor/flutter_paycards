@@ -29,7 +29,7 @@
 
         </com.saitbnzl.flutterPaycards.sdk.ui.views.TabletCardRecognitionHolderLinearLayout>
 
-        <com.saitbnzl.flutterPaycards.sdk.ui.views.ButtonWithTopBorder
+        <com.saitbnzl.flutterPaycards.sdk.ui.views.BorderButton
             android:id="@+id/wocr_tv_enter_card_number_id"
             style="@style/wocr_EnterManuallyButton"
             android:layout_width="match_parent"

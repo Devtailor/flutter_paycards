@@ -40,7 +40,7 @@
             tools:visibility="visible"
             tools:ignore="RtlHardcoded" />
 
-        <com.saitbnzl.flutterPaycards.sdk.ui.views.ButtonWithTopBorder
+        <com.saitbnzl.flutterPaycards.sdk.ui.views.BorderButton
             style="@style/wocr_EnterManuallyButton"
             android:id="@+id/wocr_tv_enter_card_number_id"
             android:layout_width="match_parent"
