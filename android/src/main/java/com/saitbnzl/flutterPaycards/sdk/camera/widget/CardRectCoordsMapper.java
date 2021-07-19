@@ -169,7 +169,7 @@ class CardRectCoordsMapper {
         float cameraHeight = getCameraHeightRotated();
         float cameraWidth = getCameraWidthRotated();
 
-        //// This should be for landscape checking but it breaks with high aspect ratio phones when
+        //// This should be for landscape checking but it breaks with high resolution phones when
         //// the statement is true. Card focus area will be out of the screen.
         // Center crop
         // if (cameraWidth * mViewHeight > cameraHeight * mViewWidth) {
